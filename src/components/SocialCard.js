@@ -1,9 +1,10 @@
 import React from 'react';
+import Avatar from './avatar/Avatar';
 
 const SocialCard = () => {
     return (
         <div className="SocialCard mb-3 row">
-            <h1>Social Card</h1>
+            <Avatar />
         </div>
     );
 };

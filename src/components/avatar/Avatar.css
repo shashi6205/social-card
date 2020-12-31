@@ -1,0 +1,37 @@
+.Avatar .image {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    background-color: black;
+}
+
+.Avatar .image-user {
+    top: 20px;
+    right: 25px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 28px;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    .avatar-col {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .Avatar .image-user {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.Avatar {
+    margin-bottom: 5px;
+}
